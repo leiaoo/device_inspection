@@ -1,0 +1,2700 @@
+
+ter length 0
+
+show version
+Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(2)E4, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Fri 12-Feb-16 22:57 by prod_rel_team
+
+ROM: Bootstrap program is C2960X boot loader
+BOOTLDR: C2960X Boot Loader (C2960X-HBOOT-M) Version 15.2(3r)E1, RELEASE SOFTWARE (fc1)
+
+SHZB29SW02-M1 uptime is 1 year, 35 weeks, 2 hours, 14 minutes
+System returned to ROM by power-on
+System restarted at 15:55:11 BJ Wed Dec 7 2016
+System image file is "flash:/c2960x-universalk9-mz.152-2.E4.bin"
+Last reload reason: Reload command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+cisco WS-C2960XR-48TS-I (APM86XXX) processor (revision J0) with 524288K bytes of memory.
+Processor board ID FDO2001B0BM
+Last reset from power-on
+2 Virtual Ethernet interfaces
+1 FastEthernet interface
+52 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:AF:1F:39:62:80
+Motherboard assembly number     : 73-100641-03
+Power supply part number        : 341-0530-02
+Motherboard serial number       : FDO19530EE5
+Power supply serial number      : LIT19510L2S
+Model revision number           : J0
+Motherboard revision number     : B0
+Model number                    : WS-C2960XR-48TS-I
+Daughterboard assembly number   : 73-14200-03
+Daughterboard serial number     : FDO19521AXN
+System serial number            : FDO2001B0BM
+Top Assembly Part Number        : 68-100317-01
+Top Assembly Revision Number    : B0
+Version ID                      : V04
+CLEI Code Number                : CMMLC00ARC
+Daughterboard revision number   : A0
+Hardware Board Revision Number  : 0x21
+
+
+Switch Ports Model                     SW Version            SW Image                 
+------ ----- -----                     ----------            ----------               
+*    1 52    WS-C2960XR-48TS-I         15.2(2)E4             C2960X-UNIVERSALK9-M     
+
+
+Configuration register is 0xF
+
+show env all
+FAN PS-1 is OK
+FAN PS-2 is OK
+SYSTEM TEMPERATURE is OK
+System Temperature Value: 36 Degree Celsius
+System Temperature State: GREEN
+Yellow Threshold : 67 Degree Celsius
+Red Threshold    : 75 Degree Celsius
+POWER SUPPLY 1A TEMPERATURE: OK
+POWER SUPPLY 1B TEMPERATURE: OK
+SW  PID                 Serial#     Status           Sys Pwr  PoE Pwr  Watts
+--  ------------------  ----------  ---------------  -------  -------  -----
+1A  PWR-C2-250WAC       LIT19510L2S OK              Good     N/A      250/0
+1B  PWR-C2-250WAC       LIT20010JGC OK              Good     N/A      250/0
+
+
+show module
+                     ^
+% Invalid input detected at '^' marker.
+
+show process cpu
+CPU utilization for five seconds: 37%/0%; one minute: 32%; five minutes: 31%
+ PID Runtime(ms)     Invoked      uSecs   5Sec   1Min   5Min TTY Process 
+   1          28         138        202  0.00%  0.00%  0.00%   0 Chunk Manager    
+   2      103919    10542395          9  0.00%  0.00%  0.00%   0 Load Meter       
+   3      197467     3512189         56  0.00%  0.00%  0.00%   0 MDFS LC Download 
+   4           0           1          0  0.00%  0.00%  0.00%   0 Retransmission o 
+   5           0           1          0  0.00%  0.00%  0.00%   0 IPC ISSU Dispatc 
+   6   168805285    13383936      12612  0.00%  0.26%  0.24%   0 Check heaps      
+   7       19634       10856       1808  0.00%  0.00%  0.00%   0 Pool Manager     
+   8           0           1          0  0.00%  0.00%  0.00%   0 DiscardQ Backgro 
+   9           0           2          0  0.00%  0.00%  0.00%   0 Timers           
+  10         575       38083         15  0.00%  0.00%  0.00%   0 WATCH_AFS        
+  11       91700   210800769          0  0.00%  0.00%  0.00%   0 HUSB Console     
+  12           0           1          0  0.00%  0.00%  0.00%   0 License Client N 
+  13    25722570      878049      29295  0.00%  0.01%  0.00%   0 Licensing Auto U 
+  14           0           1          0  0.00%  0.00%  0.00%   0 Image License br 
+  15       84731      195989        432  0.00%  0.00%  0.00%   0 ARP Input        
+  16      173621    54843361          3  0.00%  0.00%  0.00%   0 ARP Background   
+  17           0           1          0  0.00%  0.00%  0.00%   0 CEF MIB API      
+  18           0           1          0  0.00%  0.00%  0.00%   0 AAA_SERVER_DEADT 
+  19           0           1          0  0.00%  0.00%  0.00%   0 Policy Manager   
+  20          22          33        666  0.00%  0.00%  0.00%   0 Entity MIB API   
+  21           0           1          0  0.00%  0.00%  0.00%   0 IFS Agent Manage 
+  22       16965    10499906          1  0.00%  0.00%  0.00%   0 IPC Event Notifi 
+  23       50650    51383507          0  0.00%  0.00%  0.00%   0 IPC Mcast Pendin 
+  24        8859      878066         10  0.00%  0.00%  0.00%   0 IPC Dynamic Cach 
+  25           0           1          0  0.00%  0.00%  0.00%   0 IPC Session Serv 
+  26           0           1          0  0.00%  0.00%  0.00%   0 IPC Zone Manager 
+  27       59283    51383510          1  0.00%  0.00%  0.00%   0 IPC Periodic Tim 
+  28       49004    51383508          0  0.00%  0.00%  0.00%   0 IPC Deferred Por 
+  29           0           1          0  0.00%  0.00%  0.00%   0 IPC Process leve 
+  30      149075     3512191         42  0.00%  0.00%  0.00%   0 IPC Seat Manager 
+  31         323     3011859          0  0.00%  0.00%  0.00%   0 IPC Check Queue  
+  32           0           1          0  0.00%  0.00%  0.00%   0 IPC Seat RX Cont 
+  33           0           1          0  0.00%  0.00%  0.00%   0 IPC Seat TX Cont 
+  34         916     5271203          0  0.00%  0.00%  0.00%   0 IPC Keep Alive M 
+  35       44266    10537034          4  0.00%  0.00%  0.00%   0 IPC Loadometer   
+  36         366          12      30500  0.00%  0.00%  0.00%   0 PrstVbl          
+  37           0           1          0  0.00%  0.00%  0.00%   0 Crash writer     
+  38           0           1          0  0.00%  0.00%  0.00%   0 Exception contro 
+  39     7747493      601927      12871  0.00%  0.00%  0.00%   0 crypto sw pk pro 
+  40           0           1          0  0.00%  0.00%  0.00%   0 License IPC stat 
+  41           0           1          0  0.00%  0.00%  0.00%   0 License IPC serv 
+  42       10996    52711970          0  0.00%  0.00%  0.00%   0 GraphIt          
+  43           0           1          0  0.00%  0.00%  0.00%   0 client_entity_se 
+  44           0           2          0  0.00%  0.00%  0.00%   0 SMART            
+  45           0           2          0  0.00%  0.00%  0.00%   0 XML Proxy Client 
+  46           0           1          0  0.00%  0.00%  0.00%   0 ARP Snoop        
+  47       32202    52499483          0  0.00%  0.00%  0.00%   0 Dynamic ARP Insp 
+  48           0           1          0  0.00%  0.00%  0.00%   0 Critical Bkgnd   
+  49     1556649    61145565         25  0.00%  0.00%  0.00%   0 Net Background   
+  50           8          59        135  0.00%  0.00%  0.00%   0 IDB Work         
+  51          22         413         53  0.00%  0.00%  0.00%   0 Logger           
+  52       34964    52499443          0  0.00%  0.00%  0.00%   0 TTY Background   
+  53          74         296        250  0.00%  0.00%  0.00%   0 SXP CORE         
+  54           0           1          0  0.00%  0.00%  0.00%   0 Cat6k NTI ICC pr 
+  55          13          41        317  0.00%  0.00%  0.00%   0 IF-MGR control p 
+  56           0          95          0  0.00%  0.00%  0.00%   0 IF-MGR event pro 
+  57           0           1          0  0.00%  0.00%  0.00%   0 ICC Nego         
+  58          41        1408         29  0.00%  0.00%  0.00%   0 Net Input        
+  59      103499    10542396          9  0.00%  0.00%  0.00%   0 Compute load avg 
+  60     9976827      889406      11217  0.00%  0.01%  0.00%   0 Per-minute Jobs  
+  61      152648    52712010          2  0.00%  0.00%  0.00%   0 Per-Second Jobs  
+  62           0           1          0  0.00%  0.00%  0.00%   0 Inode Table Dest 
+  63           0           1          0  0.00%  0.00%  0.00%   0 AggMgr Process   
+  64           0           3          0  0.00%  0.00%  0.00%   0 Transport Port A 
+  65       98445    15710419          6  0.00%  0.00%  0.00%   0 HC Counter Timer 
+  66    46091612      349822     131762  0.00%  0.21%  0.09%   0 SFF8472          
+  67           0           4          0  0.00%  0.00%  0.00%   0 EEM ED Identity  
+  68           0           4          0  0.00%  0.00%  0.00%   0 EEM ED MAT       
+  69      251681     1105706        227  0.00%  0.00%  0.00%   0 EEM ED ND        
+  70          66          11       6000  0.00%  0.00%  0.00%   0 USB Startup      
+  71           0           2          0  0.00%  0.00%  0.00%   0 APM 86392 RTC    
+  72      285025   982225884          0  0.00%  0.00%  0.00%   0 DownWhenLooped   
+  73           0           1          0  0.00%  0.00%  0.00%   0 HRPC power_mgmt  
+  74           0           2          0  0.00%  0.00%  0.00%   0 Porter Power Man 
+  75           0           1          0  0.00%  0.00%  0.00%   0 Hulc EEM Process 
+  76           0           1          0  0.00%  0.00%  0.00%   0 HRPC lpip reques 
+  77           0           2          0  0.00%  0.00%  0.00%   0 HLPIP Sync Proce 
+  78           0           1          0  0.00%  0.00%  0.00%   0 HRPC hnetwpol re 
+  79           0           1          0  0.00%  0.00%  0.00%   0 HRPC EnergyWise  
+  80           0           1          0  0.00%  0.00%  0.00%   0 HRPC actual powe 
+  81           0           1          0  0.00%  0.00%  0.00%   0 HRPC ipadm reque 
+  82      496088  1807303156          0  0.05%  0.00%  0.00%   0 Draught link sta 
+  83       12503     1756113          7  0.00%  0.00%  0.00%   0 PSP Timer        
+  84           0           1          0  0.00%  0.00%  0.00%   0 HRPC asic-stats  
+  85           0           3          0  0.00%  0.00%  0.00%   0 Stack DI Update  
+  86         868     1971919          0  0.00%  0.00%  0.00%   0 Adjust Regions   
+  87       21895   105423934          0  0.00%  0.00%  0.00%   0 FlexStack Hotswa 
+  88     6757378  2408901959          2  0.00%  0.01%  0.00%   0 RedEarth Tx Mana 
+  89     1972021  2408985432          0  0.00%  0.00%  0.00%   0 RedEarth Rx Mana 
+  90   404965987    10542398      38413  0.65%  0.65%  0.65%   0 HULC Thermal Pro 
+  91           0           1          0  0.00%  0.00%  0.00%   0 HRPC hsm request 
+  92           0           8          0  0.00%  0.00%  0.00%   0 Stack Mgr        
+  93         164          12      13666  0.00%  0.00%  0.00%   0 Stack Mgr Notifi 
+  94       20307    26329627          0  0.00%  0.00%  0.00%   0 hrpc -> response 
+  95        7015      213491         32  0.00%  0.00%  0.00%   0 hrpc -> request  
+  96      187455     8940714         20  0.00%  0.00%  0.00%   0 hrpc <- response 
+  97           0           1          0  0.00%  0.00%  0.00%   0 HRPC hcomp reque 
+  98     1864457   263413482          7  0.00%  0.00%  0.00%   0 apm86xxx_enet_pr 
+  99           0          10          0  0.00%  0.00%  0.00%   0 HULC Device Mana 
+ 100           0           3          0  0.00%  0.00%  0.00%   0 HRPC hdm non blo 
+ 101           0           2          0  0.00%  0.00%  0.00%   0 HRPC hdm blockin 
+ 102       15952    10499899          1  0.00%  0.00%  0.00%   0 HIPC bkgrd proce 
+ 103           0           1          0  0.00%  0.00%  0.00%   0 RTTYS Process    
+ 104           0           1          0  0.00%  0.00%  0.00%   0 HRPC hautosecure 
+ 105          15         280         53  0.00%  0.00%  0.00%   0 Hulc Port-Securi 
+ 106           0           1          0  0.00%  0.00%  0.00%   0 HRPC hpsecure re 
+ 107           0           1          0  0.00%  0.00%  0.00%   0 HRPC hrcmd reque 
+ 108           0          35          0  0.00%  0.00%  0.00%   0 HRPC emac reques 
+ 109          17          12       1416  0.00%  0.00%  0.00%   0 HULC EMAC Proces 
+ 110      106097      426909        248  0.00%  0.00%  0.00%   0 HRPC hulc misc r 
+ 111        4109    17550631          0  0.00%  0.00%  0.00%   0 HVLAN main bkgrd 
+ 112           0           2          0  0.00%  0.00%  0.00%   0 HVLAN Mapped Vla 
+ 113           0           2          0  0.00%  0.00%  0.00%   0 Vlan shutdown Pr 
+ 114           0           3          0  0.00%  0.00%  0.00%   0 HRPC vlan reques 
+ 115           0           1          0  0.00%  0.00%  0.00%   0 HULC VLAN REF Ba 
+ 116           0           1          0  0.00%  0.00%  0.00%   0 HRPC ilp request 
+ 117     1232660     3512189        350  0.00%  0.00%  0.00%   0 Strider Tcam Mem 
+ 118           0           1          0  0.00%  0.00%  0.00%   0 HRPC hlfm reques 
+ 119     1169663  1445247259          0  0.00%  0.00%  0.00%   0 HLFM address lea 
+ 120       46688    52499447          0  0.00%  0.00%  0.00%   0 HLFM aging proce 
+ 121        1864    14078698          0  0.00%  0.00%  0.00%   0 HLFM address ret 
+ 122           0           1          0  0.00%  0.00%  0.00%   0 HULC PM Vector P 
+ 123           0           1          0  0.00%  0.00%  0.00%   0 HPM Msg Retry Pr 
+ 124         345         210       1642  0.95%  0.38%  0.08%   1 SSH Process      
+ 125     2859027   751282113          3  0.05%  0.00%  0.00%   0 hpm main process 
+ 126           8         328         24  0.00%  0.00%  0.00%   0 HPM Stack Sync P 
+ 127           0           1          0  0.00%  0.00%  0.00%   0 HRPC pm request  
+ 128           0           4          0  0.00%  0.00%  0.00%   0 HPM if_num mappi 
+ 129      325247    52711970          6  0.00%  0.00%  0.00%   0 hpm counter proc 
+ 130           0           1          0  0.00%  0.00%  0.00%   0 HRPC pm-counters 
+ 131           3          36         83  0.00%  0.00%  0.00%   0 hpm vp events ca 
+ 132           0           1          0  0.00%  0.00%  0.00%   0 HRPC hcmp reques 
+ 133       23861       25090        951  0.00%  0.00%  0.00%   0 HCEF ADJ Refresh 
+ 134           0           1          0  0.00%  0.00%  0.00%   0 hl3md_rpfq_thrl_ 
+ 135           0           1          0  0.00%  0.00%  0.00%   0 HRPC hl3mm ipv6  
+ 136       28240    36679067          0  0.00%  0.00%  0.00%   0 hl3mm_mfib_ipv6  
+ 137        2518    26329603          0  0.00%  0.00%  0.00%   0 hl3mm_mrib_rp    
+ 138        2895    26329603          0  0.00%  0.00%  0.00%   0 hl3mm_rp         
+ 139           0           1          0  0.00%  0.00%  0.00%   0 HACL Queue Proce 
+ 140           0           1          0  0.00%  0.00%  0.00%   0 HRPC acl request 
+ 141           8          22        363  0.00%  0.00%  0.00%   0 HACL Acl Manager 
+ 142           0           1          0  0.00%  0.00%  0.00%   0 HRPC aim request 
+ 143           0           1          0  0.00%  0.00%  0.00%   0 HRPC backup inte 
+ 144         562      175708          3  0.00%  0.00%  0.00%   0 OBFL TEMP obfl0  
+ 145           0           1          0  0.00%  0.00%  0.00%   0 HRPC cdp request 
+ 146           0           1          0  0.00%  0.00%  0.00%   0 HULC CISP Proces 
+ 147           0           1          0  0.00%  0.00%  0.00%   0 HRPC dot1x reque 
+ 148           0           1          0  0.00%  0.00%  0.00%   0 Dot1X Msg Retry  
+ 149           0           3          0  0.00%  0.00%  0.00%   0 HULC DOT1X Proce 
+ 150           0           1          0  0.00%  0.00%  0.00%   0 HRPC epm vlan pl 
+ 151           0           1          0  0.00%  0.00%  0.00%   0 HRPC lldp reques 
+ 152           0           1          0  0.00%  0.00%  0.00%   0 HRPC system mtu  
+ 153           0           1          0  0.00%  0.00%  0.00%   0 HRPC rep request 
+ 154           0           4          0  0.00%  0.00%  0.00%   0 REP Helper Proc  
+ 155           0           1          0  0.00%  0.00%  0.00%   0 HRPC sdm request 
+ 156           0           1          0  0.00%  0.00%  0.00%   0 SMI MSG Retry Pr 
+ 157           0           1          0  0.00%  0.00%  0.00%   0 HRPC Smart Insta 
+ 158     1431966   260338517          5  0.00%  0.00%  0.00%   0 Hulc Storm Contr 
+ 159           0           2          0  0.00%  0.00%  0.00%   0 HSTP Sync Proces 
+ 160           0           1          0  0.00%  0.00%  0.00%   0 HRPC stp_cli req 
+ 161           0           1          0  0.00%  0.00%  0.00%   0 HRPC stp_state_s 
+ 162           0           2          0  0.00%  0.00%  0.00%   0 S/W Bridge Proce 
+ 163           0           1          0  0.00%  0.00%  0.00%   0 HRPC hudld reque 
+ 164           0           1          0  0.00%  0.00%  0.00%   0 HRPC vqpc reques 
+ 165           0           1          0  0.00%  0.00%  0.00%   0 HRPC l2pt qnq rp 
+ 166           0           1          0  0.00%  0.00%  0.00%   0 HRPC hled reques 
+ 167   648041667  1315650625        492 15.22% 14.92% 14.96%   0 Hulc LED Process 
+ 168           0           1          0  0.00%  0.00%  0.00%   0 HRPC hl3mm reque 
+ 169       29598    36679079          0  0.00%  0.00%  0.00%   0 hl3mm            
+ 170      132910    38629713          3  0.00%  0.00%  0.00%   0 HL3U bkgrd proce 
+ 171           0           1          0  0.00%  0.00%  0.00%   0 HRPC hl3u reques 
+ 172       58114    12039581          4  0.00%  0.00%  0.00%   0 HIPV6 bkgrd proc 
+ 173           0           1          0  0.00%  0.00%  0.00%   0 HRPC IPv6 Unicas 
+ 174       10346    12039427          0  0.00%  0.00%  0.00%   0 HL3U PBR bkgrd p 
+ 175        3585      439062          8  0.00%  0.00%  0.00%   0 HL3U PBR n-h res 
+ 176           0           1          0  0.00%  0.00%  0.00%   0 HRPC obfl reques 
+ 177    22283101    56605901        393  0.17%  0.04%  0.04%   0 IP SNMP          
+ 178           0           1          0  0.00%  0.00%  0.00%   0 HRPC dtp request 
+ 179           0           1          0  0.00%  0.00%  0.00%   0 HRPC show_forwar 
+ 180           0           1          0  0.00%  0.00%  0.00%   0 HRPC snmp reques 
+ 181           0           1          0  0.00%  0.00%  0.00%   0 HULC SNMP Proces 
+ 182   164844890    10499906      15699  0.23%  0.25%  0.23%   0 HQM Stack Proces 
+ 183    36966658    20999797       1760  0.05%  0.05%  0.05%   0 HRPC qos request 
+ 184           0           1          0  0.00%  0.00%  0.00%   0 HRPC span reques 
+ 185           0           1          0  0.00%  0.00%  0.00%   0 HRPC system post 
+ 186           0           1          0  0.00%  0.00%  0.00%   0 Hulc Reload Mana 
+ 187           0           1          0  0.00%  0.00%  0.00%   0 Hulc Blue Beacon 
+ 188           0           1          0  0.00%  0.00%  0.00%   0 HRPC hrcli-event 
+ 189           3           1       3000  0.00%  0.00%  0.00%   0 Connection Mgr   
+ 190           0           2          0  0.00%  0.00%  0.00%   0 image mgr        
+ 191           0           1          0  0.00%  0.00%  0.00%   0 HRFS OIR Proc    
+ 192       48648    17570658          2  0.00%  0.00%  0.00%   0 Power RPS Proces 
+ 193          75          85        882  0.00%  0.00%  0.00%   0 HL2MCM           
+ 194         167          85       1964  0.00%  0.00%  0.00%   0 HL2MCM           
+ 195        1439       20567         69  0.00%  0.00%  0.00%   0 AAA Server       
+ 196           0           1          0  0.00%  0.00%  0.00%   0 AAA ACCT Proc    
+ 197           0           1          0  0.00%  0.00%  0.00%   0 ACCT Periodic Pr 
+ 198           0           1          0  0.00%  0.00%  0.00%   0 AAA System Acct  
+ 199           0           1          0  0.00%  0.00%  0.00%   0 Webauth client   
+ 200           0           1          0  0.00%  0.00%  0.00%   0 Auth-proxy HTTP  
+ 201           0           1          0  0.00%  0.00%  0.00%   0 IP Admin SM Proc 
+ 202     2105345     6950521        302  0.00%  0.00%  0.00%   0 CDP Protocol     
+ 203        1169       29280         39  0.00%  0.00%  0.00%   0 SSH Event handle 
+ 204           0           2          0  0.00%  0.00%  0.00%   0 MRIB Process     
+ 205           0           2          0  0.00%  0.00%  0.00%   0 AAA Dictionary R 
+ 206         269      439267          0  0.00%  0.00%  0.00%   0 DHCP Snooping    
+ 207           0           1          0  0.00%  0.00%  0.00%   0 DHCP Snooping db 
+ 208           0           2          0  0.00%  0.00%  0.00%   0 Dot1x Mgr Proces 
+ 209           0           1          0  0.00%  0.00%  0.00%   0 EAP Framework    
+ 210           0           1          0  0.00%  0.00%  0.00%   0 EAP Test         
+ 211           0           1          0  0.00%  0.00%  0.00%   0 TRACK Main threa 
+ 212           0           1          0  0.00%  0.00%  0.00%   0 TRACK Client thr 
+ 213           0           2          0  0.00%  0.00%  0.00%   0 CEF switching ba 
+ 214          57          19       3000  0.00%  0.00%  0.00%   0 IP ARP Adjacency 
+ 215      493370  1445247315          0  0.00%  0.00%  0.00%   0 IP ARP Retry Age 
+ 216    10408588    83293739        124  0.35%  0.04%  0.00%   0 IP Input         
+ 217           0           1          0  0.00%  0.00%  0.00%   0 ICMP event handl 
+ 218       47949   101313873          0  0.00%  0.00%  0.00%   0 IP ARP Track     
+ 219      213872   515906454          0  0.00%  0.00%  0.00%   0 MDFS MFIB Proces 
+ 220           0           1          0  0.00%  0.00%  0.00%   0 ADJ NSF process  
+ 221           0           1          0  0.00%  0.00%  0.00%   0 IPv6 ping proces 
+ 222      288722       19418      14868  0.00%  0.00%  0.00%   0 OBFL UPTIME obfl 
+ 223           0           2          0  0.00%  0.00%  0.00%   0 REP Topology cha 
+ 224           0           4          0  0.00%  0.00%  0.00%   0 RIB LM VALIDATE  
+ 225           3          26        115  0.00%  0.00%  0.00%   0 SMI Director DB  
+ 226       46934     1105417         42  0.00%  0.00%  0.00%   0 SMI CDP Update H 
+ 227           0           1          0  0.00%  0.00%  0.00%   0 SMI Backup Proce 
+ 229           0           1          0  0.00%  0.00%  0.00%   0 SMI IBC client p 
+ 230           0           2          0  0.00%  0.00%  0.00%   0 SMI IBC Download 
+ 231    14114572   168283094         83  0.11%  0.03%  0.00%   0 Spanning Tree    
+ 232        3957      878525          4  0.00%  0.00%  0.00%   0 Spanning Tree St 
+ 233          23         139        165  0.00%  0.00%  0.00%   0 802.1x switch    
+ 234      102420     1786207         57  0.00%  0.00%  0.00%   0 DTP Protocol     
+ 235           0           1          0  0.00%  0.00%  0.00%   0 HRPC IPv6 Host r 
+ 236           0           2          0  0.00%  0.00%  0.00%   0 IPv6 Platform Ho 
+ 237           0           1          0  0.00%  0.00%  0.00%   0 HRPC dai request 
+ 238           0           1          0  0.00%  0.00%  0.00%   0 HULC DAI Process 
+ 239           0           1          0  0.00%  0.00%  0.00%   0 HRPC power down  
+ 240           0           1          0  0.00%  0.00%  0.00%   0 HRPC ip device t 
+ 241           0           1          0  0.00%  0.00%  0.00%   0 HRPC ip source g 
+ 242           0           1          0  0.00%  0.00%  0.00%   0 HULC IP Source g 
+ 243          35           3      11666  0.00%  0.00%  0.00%   0 OBFL MSG obfl0   
+ 244      184696    52499447          3  0.00%  0.00%  0.00%   0 PI MATM Aging Pr 
+ 245      670247   526890785          1  0.00%  0.00%  0.00%   0 UDLD             
+ 246         257     1757066          0  0.00%  0.00%  0.00%   0 Port-Security    
+ 247           0           2          0  0.00%  0.00%  0.00%   0 Switch Backup In 
+ 248           0           2          0  0.00%  0.00%  0.00%   0 IP Host Track Pr 
+ 249           0           1          0  0.00%  0.00%  0.00%   0 Link State Group 
+ 250        7729      878065          8  0.00%  0.00%  0.00%   0 MMN bkgrd proces 
+ 251        9769     5268298          1  0.00%  0.00%  0.00%   0 Ethchnl          
+ 252         199         134       1485  0.00%  0.00%  0.00%   0 VMATM Callback   
+ 253           0           1          0  0.00%  0.00%  0.00%   0 XDR background p 
+ 254       28249      878067         32  0.00%  0.00%  0.00%   0 XDR mcast        
+ 255           0           1          0  0.00%  0.00%  0.00%   0 XDR RP Ping Back 
+ 256           0           1          0  0.00%  0.00%  0.00%   0 XDR receive      
+ 257           0           1          0  0.00%  0.00%  0.00%   0 IPC LC Message H 
+ 258           0           1          0  0.00%  0.00%  0.00%   0 XDR RP Test Back 
+ 259        8533      878065          9  0.00%  0.00%  0.00%   0 FRR Background P 
+ 260      598587     3772808        158  0.00%  0.00%  0.00%   0 CEF background p 
+ 261           0           1          0  0.00%  0.00%  0.00%   0 fib_fib_bfd_sb e 
+ 262           0           1          0  0.00%  0.00%  0.00%   0 IP IRDP          
+ 263           0           1          0  0.00%  0.00%  0.00%   0 CEF RF HULC Conv 
+ 264        7268     5268297          1  0.00%  0.00%  0.00%   0 IP ACL XDR LC Ba 
+ 265           0           1          0  0.00%  0.00%  0.00%   0 Tunnel FIB       
+ 266       15214    26328416          0  0.00%  0.00%  0.00%   0 CEF: IPv4 proces 
+ 267      643261    52499443         12  0.00%  0.00%  0.00%   0 ADJ background   
+ 268           0           3          0  0.00%  0.00%  0.00%   0 MDFS LC Process  
+ 269           3         140         21  0.00%  0.00%  0.00%   0 Auth Manager     
+ 270           0           2          0  0.00%  0.00%  0.00%   0 Critical Auth    
+ 271           0           1          0  0.00%  0.00%  0.00%   0 EPM MAIN PROCESS 
+ 272           0           1          0  0.00%  0.00%  0.00%   0 Timer Handler Pr 
+ 273           0           1          0  0.00%  0.00%  0.00%   0 EPM Downlad Mana 
+ 274       21325    10499900          2  0.00%  0.00%  0.00%   0 EPM ACL PLUG-IN  
+ 275          31           2      15500  0.00%  0.00%  0.00%   0 OBFL ENV obfl0   
+ 276       97552   104938696          0  0.00%  0.00%  0.00%   0 SVM UT Process   
+ 277           0           1          0  0.00%  0.00%  0.00%   0 CMD HANDLER      
+ 278       19834      429065         46  0.00%  0.00%  0.00%   0 TCP Timer        
+ 279        2767       20599        134  0.00%  0.00%  0.00%   0 TCP Protocols    
+ 280           0           1          0  0.00%  0.00%  0.00%   0 Socket Timers    
+ 281         132      175725          0  0.00%  0.00%  0.00%   0 HTTP CORE        
+ 282         338      658856          0  0.00%  0.00%  0.00%   0 Cluster L2       
+ 283        8865     5268296          1  0.00%  0.00%  0.00%   0 Cluster RARP     
+ 284        5330     6585910          0  0.00%  0.00%  0.00%   0 Cluster Base     
+ 285           0           2          0  0.00%  0.00%  0.00%   0 Dot1x Supplicant 
+ 286           0           2          0  0.00%  0.00%  0.00%   0 Dot1x Supplicant 
+ 287           0           2          0  0.00%  0.00%  0.00%   0 Dot1x Supplicant 
+ 288           0           1          0  0.00%  0.00%  0.00%   0 DSensor HTTP     
+ 289           0           2          0  0.00%  0.00%  0.00%   0 Routing Topology 
+ 290           4           1       4000  0.00%  0.00%  0.00%   0 CEF RP Backgroun 
+ 291           0         136          0  0.00%  0.00%  0.00%   0 Flow Exporter Ti 
+ 292           0           1          0  0.00%  0.00%  0.00%   0 DCT Bkgd Process 
+ 293          56      172829          0  0.00%  0.00%  0.00%   0 MFIB Master back 
+ 294     6648161       29281     227054  0.00%  0.00%  0.00%   0 NIST rng proc    
+ 295       49736   101313873          0  0.00%  0.00%  0.00%   0 Timer Library    
+ 296           0           1          0  0.00%  0.00%  0.00%   0 MRIB RP Proxy    
+ 297          24         125        192  0.00%  0.00%  0.00%   0 MVPN Mgr Process 
+ 298           0           2          0  0.00%  0.00%  0.00%   0 Multicast Offloa 
+ 299           0           1          0  0.00%  0.00%  0.00%   0 RARP Input       
+ 300          18           8       2250  0.00%  0.00%  0.00%   0 IP RIB Update    
+ 301           0           2          0  0.00%  0.00%  0.00%   0 ENABLE AAA       
+ 302           0           3          0  0.00%  0.00%  0.00%   0 LDAP process     
+ 303           0          16          0  0.00%  0.00%  0.00%   0 static           
+ 304           0           4          0  0.00%  0.00%  0.00%   0 ADJ resolve proc 
+ 305           0           1          0  0.00%  0.00%  0.00%   0 IPv6 RIB Cleanup 
+ 306           0           1          0  0.00%  0.00%  0.00%   0 IPv6 RIB Event H 
+ 307           0           1          0  0.00%  0.00%  0.00%   0 IPv6 Static Hand 
+ 308           0           1          0  0.00%  0.00%  0.00%   0 MAB Framework    
+ 309       44871     5268292          8  0.00%  0.00%  0.00%   0 QoS stats proces 
+ 310           3           1       3000  0.00%  0.00%  0.00%   0 LICENSE AGENT    
+ 311           0           2          0  0.00%  0.00%  0.00%   0 REP LSL Proc     
+ 312           0           2          0  0.00%  0.00%  0.00%   0 REP BPA/EPA Proc 
+ 313           0           4          0  0.00%  0.00%  0.00%   0 SNMP Timers      
+ 314           0           1          0  0.00%  0.00%  0.00%   0 HRPC hwccp reque 
+ 315           0           1          0  0.00%  0.00%  0.00%   0 HULC_WCCP_BACKGR 
+ 316           0           1          0  0.00%  0.00%  0.00%   0 HRPC dhcp snoopi 
+ 317           0           4          0  0.00%  0.00%  0.00%   0 HULC DHCP Snoopi 
+ 318           0           1          0  0.00%  0.00%  0.00%   0 HRPC sisf reques 
+ 319           0           2          0  0.00%  0.00%  0.00%   0 HULC SISF Proces 
+ 320           0           1          0  0.00%  0.00%  0.00%   0 HULC SISF Source 
+ 321         124        1588         78  0.00%  0.00%  0.00%   0 IGMPSN L2MCM     
+ 322           0           1          0  0.00%  0.00%  0.00%   0 IGMPSN MRD       
+ 323           3          60         50  0.00%  0.00%  0.00%   0 IGMPSN           
+ 324           0           1          0  0.00%  0.00%  0.00%   0 IGMPQR           
+ 325           0           3          0  0.00%  0.00%  0.00%   0 L2TRACE SERVER   
+ 326          78        1574         49  0.00%  0.00%  0.00%   0 MLDSN L2MCM      
+ 327           0           1          0  0.00%  0.00%  0.00%   0 MRD              
+ 328           0           1          0  0.00%  0.00%  0.00%   0 MLD_SNOOP        
+ 329           0           1          0  0.00%  0.00%  0.00%   0 HRPC hl2mcm igmp 
+ 330      268944   516908158          0  0.00%  0.00%  0.00%   0 MDFS RP process  
+ 331           0           2          0  0.00%  0.00%  0.00%   0 AAA Cached Serve 
+ 332           0           1          0  0.00%  0.00%  0.00%   0 HRPC hl2mcm mlds 
+ 333           0           2          0  0.00%  0.00%  0.00%   0 Crypto Support   
+ 334           0           1          0  0.00%  0.00%  0.00%   0 IPSECv6 PS Proc  
+ 335           0           1          0  0.00%  0.00%  0.00%   0 Key chain liveke 
+ 336           0           2          0  0.00%  0.00%  0.00%   0 LINE AAA         
+ 337        4372       20568        212  0.00%  0.00%  0.00%   0 LOCAL AAA        
+ 338          47      292845          0  0.00%  0.00%  0.00%   0 HCMP sync proces 
+ 339           0           2          0  0.00%  0.00%  0.00%   0 TPLUS            
+ 340           0           7          0  0.00%  0.00%  0.00%   0 Collection proce 
+ 341           0          49          0  0.00%  0.00%  0.00%   0 hulc cfg mgr mas 
+ 342         116          13       8923  0.00%  0.00%  0.00%   0 crypto engine pr 
+ 343       55177    52659077          1  0.00%  0.00%  0.00%   0 Crypto IKEv2     
+ 344           0           1          0  0.00%  0.00%  0.00%   0 IKEv2 AAA handle 
+ 345           0           1          0  0.00%  0.00%  0.00%   0 tHUB             
+ 346           0           1          0  0.00%  0.00%  0.00%   0 encrypt proc     
+ 347           0           2          0  0.00%  0.00%  0.00%   0 CRYPTO MAP FREE  
+ 348           0           1          0  0.00%  0.00%  0.00%   0 Crypto INT       
+ 349           0           2          0  0.00%  0.00%  0.00%   0 Crypto IKE Dispa 
+ 350           0           3          0  0.00%  0.00%  0.00%   0 Crypto IKMP      
+ 351           0           1          0  0.00%  0.00%  0.00%   0 IPSEC manual key 
+ 352        7848     2634160          2  0.00%  0.00%  0.00%   0 IPSEC key engine 
+ 353           0           5          0  0.00%  0.00%  0.00%   0 Crypto ACL       
+ 354           0           1          0  0.00%  0.00%  0.00%   0 Crypto PAS Proc  
+ 355           0           5          0  0.00%  0.00%  0.00%   0 IPSec background 
+ 356           0           1          0  0.00%  0.00%  0.00%   0 RSA background p 
+ 357         145       48414          2  0.00%  0.00%  0.00%   0 Crypto CA        
+ 358           0           1          0  0.00%  0.00%  0.00%   0 Crypto PKI-CRL   
+ 359           0           1          0  0.00%  0.00%  0.00%   0 HRPC x_setup req 
+ 360           4           2       2000  0.00%  0.00%  0.00%   0 REP Switch Helpe 
+ 361           0           1          0  0.00%  0.00%  0.00%   0 Licensing MIB pr 
+ 362           0          39          0  0.00%  0.00%  0.00%   0 VTP Trap Process 
+ 363       49964      878069         56  0.00%  0.00%  0.00%   0 OBFL VOLT obfl0  
+ 364           3          82         36  0.00%  0.00%  0.00%   0 ASP Process Crea 
+ 365         523       10277         50  0.00%  0.00%  0.00%   0 AAA SEND STOP EV 
+ 366           0           1          0  0.00%  0.00%  0.00%   0 Test AAA Client  
+ 367           0           2          0  0.00%  0.00%  0.00%   0 DHCP Security He 
+ 368          19         326         58  0.00%  0.00%  0.00%   0 EEM ED Syslog    
+ 369           0           1          0  0.00%  0.00%  0.00%   0 Syslog Traps     
+ 370      332284     3514650         94  0.00%  0.00%  0.00%   0 OBFL I/O Buffer  
+ 371        9961      878065         11  0.00%  0.00%  0.00%   0 vlmap logger     
+ 372           0         214          0  0.00%  0.00%  0.00%   0 FEX Logger Proce 
+ 373           0           1          0  0.00%  0.00%  0.00%   0 HCD Process      
+ 374           0           1          0  0.00%  0.00%  0.00%   0 HRPC cable diagn 
+ 375           0           2          0  0.00%  0.00%  0.00%   0 DiagCard1/-1     
+ 376           0           1          0  0.00%  0.00%  0.00%   0 Online Diag EEM  
+ 377     6722826    18438824        364  0.00%  0.00%  0.00%   0 PM Callback      
+ 378           0           1          0  0.00%  0.00%  0.00%   0 HULC FNF         
+ 379       26470        1286      20583  0.00%  0.00%  0.00%   0 hulc running con 
+ 380        2865     4214981          0  0.00%  0.00%  0.00%   0 dhcp snooping sw 
+ 381     2498278    28324243         88  0.00%  0.00%  0.00%   0 PDU DISPATCHER   
+ 382           9          26        346  0.00%  0.00%  0.00%   0 EEM Server       
+ 383           7           3       2333  0.00%  0.00%  0.00%   0 Call Home proces 
+ 384           0           7          0  0.00%  0.00%  0.00%   0 EEM Helper Threa 
+ 385           3           2       1500  0.00%  0.00%  0.00%   0 EEM Policy Direc 
+ 386   169924915    28537744       5954  5.63%  0.64%  0.50%   0 SNMP ENGINE      
+ 387           0          10          0  0.00%  0.00%  0.00%   0 EEM ED Config    
+ 388           0           4          0  0.00%  0.00%  0.00%   0 EEM ED CRASH     
+ 389           0           4          0  0.00%  0.00%  0.00%   0 EEM ED DS        
+ 390           0           4          0  0.00%  0.00%  0.00%   0 EEM ED Env       
+ 391           6          64         93  0.00%  0.00%  0.00%   0 EM ED GOLD       
+ 392          11          64        171  0.00%  0.00%  0.00%   0 EEM ED OIR       
+ 393           6          64         93  0.00%  0.00%  0.00%   0 EEM ED Test      
+ 394        3299      878893          3  0.00%  0.00%  0.00%   0 EEM ED Timer     
+ 395           6         212         28  0.00%  0.00%  0.00%   0 Syslog           
+ 396           0           1          0  0.00%  0.00%  0.00%   0 IP SNMPV6        
+ 397          13         135         96  0.00%  0.00%  0.00%   0 RBM CORE         
+ 398           0           1          0  0.00%  0.00%  0.00%   0 HRPC eee request 
+ 399       36801      878065         41  0.00%  0.00%  0.00%   0 hulc_eee_monitor 
+ 400           0           2          0  0.00%  0.00%  0.00%   0 STP FAST TRANSIT 
+ 401           0           2          0  0.00%  0.00%  0.00%   0 CSRT RAPID TRANS 
+ 402           7          19        368  0.00%  0.00%  0.00%   0 VLAN Manager     
+ 403       24702      878064         28  0.00%  0.00%  0.00%   0 Call Home Timer  
+ 404           0           1          0  0.00%  0.00%  0.00%   0 SNMP ConfCopyPro 
+ 405           0           1          0  0.00%  0.00%  0.00%   0 IPv6 Access Cont 
+ 406           0           1          0  0.00%  0.00%  0.00%   0 SNMP Traps       
+ 407      275501     7103030         38  0.00%  0.00%  0.00%   0 LACP Protocol    
+ 408          26          58        448  0.00%  0.00%  0.00%   0 SpanTree Helper  
+ 409           0          50          0  0.00%  0.00%  0.00%   0 SpanTree Flush   
+ 410       19416      871239         22  0.00%  0.00%  0.00%   0 IP Background    
+ 411           6          97         61  0.00%  0.00%  0.00%   0 IP Connected Rou 
+ 412      619675    53466092         11  0.00%  0.00%  0.00%   0 NTP             
+show process cpu history
+                                                                  
+                                                                  
+                                                                  
+      333333333333333333333333333333333333333333333333333333333333
+      777744444000000000000000333334444411111000000000000000111110
+  100                                                           
+   90                                                           
+   80                                                           
+   70                                                           
+   60                                                           
+   50                                                           
+   40 ****                                                      
+   30 **********************************************************
+   20 **********************************************************
+   10 **********************************************************
+     0....5....1....1....2....2....3....3....4....4....5....5....6
+               0    5    0    5    0    5    0    5    0    5    0
+               CPU% per second (last 60 seconds)
+
+                                                                  
+                                                                  
+                                                                  
+      333333333333333333333433333333433333333333333333433333333333
+      477756464677479777776057474857085747578778776757076769677777
+  100                                                           
+   90                                                           
+   80                                                           
+   70                                                           
+   60                                                           
+   50                                                           
+   40  ***** * *** *********** * ******* ***********************
+   30 ##########################################################
+   20 ##########################################################
+   10 ##########################################################
+     0....5....1....1....2....2....3....3....4....4....5....5....6
+               0    5    0    5    0    5    0    5    0    5    0
+               CPU% per minute (last 60 minutes)
+              * = maximum CPU%   # = average CPU%
+
+                                                                              
+                                                                              
+                                                                              
+      444444444444444444444445434444444444444444444455444444444444444444444444
+      000313012110100004211020090000000001092022121110210106575853494559421312
+  100                                                                       
+   90                                                                       
+   80                                                                       
+   70                                                                       
+   60                                                                       
+   50                        *             *        **     ******  * ***    
+   40 **********************************************************************
+   30 ######################################################################
+   20 ######################################################################
+   10 ######################################################################
+     0....5....1....1....2....2....3....3....4....4....5....5....6....6....7..
+               0    5    0    5    0    5    0    5    0    5    0    5    0  
+                   CPU% per hour (last 72 hours)
+                  * = maximum CPU%   # = average CPU%
+
+
+show proc mem
+Processor Pool Total:  430201652 Used:   68077040 Free:  362124612
+      I/O Pool Total:   16777216 Used:   13328960 Free:    3448256
+Driver te Pool Total:    1048576 Used:      95252 Free:     953324
+
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+   0   0   98035472   25269232   68630208          0          0 *Init*          
+   0   0      12248 3496812632      12248          0          0 *Sched*         
+   0   0 2141321920 3319879440    3562272   17586287     949166 *Dead*          
+   0   0          0          0     394744          0          0 *MallocLite*    
+   1   0     358252      60888     312624          0          0 Chunk Manager   
+   2   0        232        232       4168          0          0 Load Meter      
+   3   0          0          0       7040          0          0 MDFS LC Download
+   4   0          0          0       7168          0          0 Retransmission o
+   5   0          0          0       7168          0          0 IPC ISSU Dispatc
+   6   0       4652        768      11640          0          0 Check heaps     
+   7   0  141109092  280113496      33056  127203228  204212995 Pool Manager    
+   8   0          0          0       7168          0          0 DiscardQ Backgro
+   9   0        232        232       7168          0          0 Timers          
+  10   0          0          0       4168          0          0 WATCH_AFS       
+  11   0          0          0       7168          0          0 HUSB Console    
+  12   0          0          0       7168          0          0 License Client N
+  13   0  837376760  837377784       7176          0          0 Licensing Auto U
+  14   0          0          0       7196          0          0 Image License br
+  15   0   41749640   41712940      43868          0          0 ARP Input       
+  16   0      23220      23220       7200          0          0 ARP Background  
+  17   0          0          0       7168          0          0 CEF MIB API     
+  18   0          0          0       7168          0          0 AAA_SERVER_DEADT
+  19   0          0          0      13168          0          0 Policy Manager  
+  20   0      71312      84508      50360          0       9620 Entity MIB API  
+  21   0          0          0       7168          0          0 IFS Agent Manage
+  22   0          0          0       7168          0          0 IPC Event Notifi
+  23   0          0          0       7168          0          0 IPC Mcast Pendin
+  24   0          0          0       7168          0          0 IPC Dynamic Cach
+  25   0          0          0       7168          0          0 IPC Session Serv
+  26   0          0          0       7168          0          0 IPC Zone Manager
+  27   0          0          0       7168          0          0 IPC Periodic Tim
+  28   0          0          0       7168          0          0 IPC Deferred Por
+  29   0          0          0       7168          0          0 IPC Process leve
+  30   0      13088          0      20256          0          0 IPC Seat Manager
+  31   0          0          0       7168          0          0 IPC Check Queue 
+  32   0          0          0       7168          0          0 IPC Seat RX Cont
+  33   0          0          0       7168          0          0 IPC Seat TX Cont
+  34   0          0          0       7168          0          0 IPC Keep Alive M
+  35   0          0          0       7168          0          0 IPC Loadometer  
+  36   0    1057216    1057216       7168          0          0 PrstVbl         
+  37   0          0          0      25168          0          0 Crash writer    
+  38   0        340          0       7508          0          0 Exception contro
+  39   0 3545418784 3556977108      17172          0          0 crypto sw pk pro
+  40   0          0          0      13168          0          0 License IPC stat
+  41   0          0          0      13168          0          0 License IPC serv
+  42   0        232        232       7168          0          0 GraphIt         
+  43   0          0          0       7168          0          0 client_entity_se
+  44   0        232        232       7168          0          0 SMART           
+  45   0        232        232      13168          0          0 XML Proxy Client
+  46   0          0          0       7168          0          0 ARP Snoop       
+  47   0          0          0       7168          0          0 Dynamic ARP Insp
+  48   0          0          0       7168          0          0 Critical Bkgnd  
+  49   0     530600      21656      20588          0          0 Net Background  
+  50   0      11020      11020      13168          0          0 IDB Work        
+  51   0      44732      18120      13168      15228          0 Logger          
+  52   0     203688       5940       7168          0          0 TTY Background  
+  53   0        788      54808      13724          0          0 SXP CORE        
+  54   0          0          0       7168          0          0 Cat6k NTI ICC pr
+  55   0     109064      84696      71580          0          0 IF-MGR control p
+  56   0          0          0       7168          0          0 IF-MGR event pro
+  57   0          0          0       7168          0          0 ICC Nego        
+  58   0          0          0       7168          0          0 Net Input       
+  59   0        232        232       7232          0          0 Compute load avg
+  60   0     373104       1780       7168     212076          0 Per-minute Jobs 
+  61   0      74120      55328      26972          0          0 Per-Second Jobs 
+  62   0          0          0       4168          0          0 Inode Table Dest
+  63   0          0          0       7168          0          0 AggMgr Process  
+  64   0          0          0       7168          0          0 Transport Port A
+  65   0          0          0       7168          0          0 HC Counter Timer
+  66   0       4788      13188       7792          0          0 SFF8472         
+  67   0     369860       6964     372968          0          0 EEM ED Identity 
+  68   0       7136       5164      12140          0          0 EEM ED MAT      
+  69   0      44092 1333904476      48696          0          0 EEM ED ND       
+  70   0     206872        232     188640          0          0 USB Startup     
+  71   0        232        232       7168          0          0 APM 86392 RTC   
+  72   0        232        232       7168          0          0 DownWhenLooped  
+  73   0          0          0       7168          0          0 HRPC power_mgmt 
+  74   0        232        232       7168          0          0 Porter Power Man
+  75   0       2044          0       9212          0          0 Hulc EEM Process
+  76   0          0          0       7216          0          0 HRPC lpip reques
+  77   0        232        232       7168          0          0 HLPIP Sync Proce
+  78   0          0          0       7168          0          0 HRPC hnetwpol re
+  79   0          0          0       7168          0          0 HRPC EnergyWise 
+  80   0          0          0       7168          0          0 HRPC actual powe
+  81   0          0          0       7168          0          0 HRPC ipadm reque
+  82   0          0          0       7168          0          0 Draught link sta
+  83   0          0          0       7168          0          0 PSP Timer       
+  84   0          0          0       7168          0          0 HRPC asic-stats 
+  85   0        232        232       7168          0          0 Stack DI Update 
+  86   0       7540       7540      10168          0          0 Adjust Regions  
+  87   0        232        232       7168          0          0 FlexStack Hotswa
+  88   0     129884     130056       7168          0          0 RedEarth Tx Mana
+  89   0     191196     129784       7168          0          0 RedEarth Rx Mana
+  90   0        232        232       7176          0          0 HULC Thermal Pro
+  91   0          0          0       4168          0          0 HRPC hsm request
+  92   0          0          0      13168          0          0 Stack Mgr       
+  93   0     911548     146200     580736          0          0 Stack Mgr Notifi
+  94   0          0          0       7176          0          0 hrpc -> response
+  95   0          0          0       7168          0          0 hrpc -> request 
+  96   0  286033472 3311073196      12212          0          0 hrpc <- response
+  97   0          0          0       7168          0          0 HRPC hcomp reque
+  98   0        232        232       7168          0          0 apm86xxx_enet_pr
+  99   0        768        232       7168          0          0 HULC Device Mana
+ 100   0       5044          0      12212          0          0 HRPC hdm non blo
+ 101   0        176        176       7168          0          0 HRPC hdm blockin
+ 102   0          0          0      13168          0          0 HIPC bkgrd proce
+ 103   0          0          0       7168          0          0 RTTYS Process   
+ 104   0          0          0       7168          0          0 HRPC hautosecure
+ 105   0       5276        232      12212          0          0 Hulc Port-Securi
+ 106   0          0          0       7168          0          0 HRPC hpsecure re
+ 107   0          0          0      13168          0          0 HRPC hrcmd reque
+ 108   0          0          0       7168          0          0 HRPC emac reques
+ 109   0     109776          0     101864      53760          0 HULC EMAC Proces
+ 110   0  142596416  139172008       7168    1959336          0 HRPC hulc misc r
+ 111   0          0          0      13168          0          0 HVLAN main bkgrd
+ 112   0        232        232       7168          0          0 HVLAN Mapped Vla
+ 113   0        232        232       7168          0          0 Vlan shutdown Pr
+ 114   0          0          0      13168          0          0 HRPC vlan reques
+ 115   0          0          0       7168          0          0 HULC VLAN REF Ba
+ 116   0          0          0       7168          0          0 HRPC ilp request
+ 117   0          0          0       7168          0          0 Strider Tcam Mem
+ 118   0          0          0       7168          0          0 HRPC hlfm reques
+ 119   0     904356        232      14544          0          0 HLFM address lea
+ 120   0        232        232       7168          0          0 HLFM aging proce
+ 121   0        232        232       7168          0          0 HLFM address ret
+ 122   0          0          0       7168          0          0 HULC PM Vector P
+ 123   0          0          0       7168          0          0 HPM Msg Retry Pr
+ 124   1    1032072     943412     100816       2268          0 SSH Process     
+ 125   0     993232    2243344      15624          0          0 hpm main process
+ 126   0        232        232       7168          0          0 HPM Stack Sync P
+ 127   0          0          0      25168          0          0 HRPC pm request 
+ 128   0        232        232       4168          0          0 HPM if_num mappi
+ 129   0        232        232       7220          0          0 hpm counter proc
+ 130   0          0          0       7168          0          0 HRPC pm-counters
+ 131   0          0          0       7168          0          0 hpm vp events ca
+ 132   0          0          0       7168          0          0 HRPC hcmp reques
+ 133   0          0          0      13168          0          0 HCEF ADJ Refresh
+ 134   0          0          0       4168          0          0 hl3md_rpfq_thrl_
+ 135   0          0          0       7168          0          0 HRPC hl3mm ipv6 
+ 136   0     288576     288576       7168          0          0 hl3mm_mfib_ipv6 
+ 137   0          0          0       7168          0          0 hl3mm_mrib_rp   
+ 138   0          0          0       7168          0          0 hl3mm_rp        
+ 139   0          0          0       7168          0          0 HACL Queue Proce
+ 140   0          0          0       7168          0          0 HRPC acl request
+ 141   0        232       3416      61168          0          0 HACL Acl Manager
+ 142   0          0          0       7168          0          0 HRPC aim request
+ 143   0          0          0       7168          0          0 HRPC backup inte
+ 144   0      31452      21488      15964          0          0 OBFL TEMP obfl0 
+ 145   0          0          0       7168          0          0 HRPC cdp request
+ 146   0          0          0       7168          0          0 HULC CISP Proces
+ 147   0          0          0       7168          0          0 HRPC dot1x reque
+ 148   0          0          0       7168          0          0 Dot1X Msg Retry 
+ 149   0          0          0      13168          0          0 HULC DOT1X Proce
+ 150   0          0          0       7168          0          0 HRPC epm vlan pl
+ 151   0          0          0       7168          0          0 HRPC lldp reques
+ 152   0          0          0       4168          0          0 HRPC system mtu 
+ 153   0          0          0       7168          0          0 HRPC rep request
+ 154   0      65812        232      72748          0          0 REP Helper Proc 
+ 155   0          0          0       7168          0          0 HRPC sdm request
+ 156   0          0          0       7168          0          0 SMI MSG Retry Pr
+ 157   0          0          0      10168          0          0 HRPC Smart Insta
+ 158   0        232        232       7168          0          0 Hulc Storm Contr
+ 159   0        232        232       7168          0          0 HSTP Sync Proces
+ 160   0          0          0       7168          0          0 HRPC stp_cli req
+ 161   0          0          0       7168          0          0 HRPC stp_state_s
+ 162   0        232        232       7168          0          0 S/W Bridge Proce
+ 163   0          0          0       7168          0          0 HRPC hudld reque
+ 164   0          0          0       7168          0          0 HRPC vqpc reques
+ 165   0          0          0       7168          0          0 HRPC l2pt qnq rp
+ 166   0          0          0       7168          0          0 HRPC hled reques
+ 167   0        232        232      10168          0          0 Hulc LED Process
+ 168   0          0          0       7168          0          0 HRPC hl3mm reque
+ 169   0      17856      17856       7168          0          0 hl3mm           
+ 170   0          0          0      13168          0          0 HL3U bkgrd proce
+ 171   0          0          0       7168          0          0 HRPC hl3u reques
+ 172   0          0          0      13168          0          0 HIPV6 bkgrd proc
+ 173   0          0          0       7168          0          0 HRPC IPv6 Unicas
+ 174   0          0          0      61168          0          0 HL3U PBR bkgrd p
+ 175   0          0          0       7168          0          0 HL3U PBR n-h res
+ 176   0          0          0       7168          0          0 HRPC obfl reques
+ 177   0 2204110500 2193147412      19972    6268860          0 IP SNMP         
+ 178   0          0          0       7168          0          0 HRPC dtp request
+ 179   0          0          0       7168          0          0 HRPC show_forwar
+ 180   0          0          0       7168          0          0 HRPC snmp reques
+ 181   0          0          0       7168          0          0 HULC SNMP Proces
+ 182   0 3602343316  404606736      27168   48049416          0 HQM Stack Proces
+ 183   0  492720308  492711440      61168       5076          0 HRPC qos request
+ 184   0          0          0       7168          0          0 HRPC span reques
+ 185   0          0          0       7168          0          0 HRPC system post
+ 186   0       5044          0      12212          0          0 Hulc Reload Mana
+ 187   0          0          0       7168          0          0 Hulc Blue Beacon
+ 188   0          0          0       7168          0          0 HRPC hrcli-event
+ 189   0          0          0      10040          0          0 Connection Mgr  
+ 190   0        232        232      10168          0          0 image mgr       
+ 191   0          0          0       7168          0          0 HRFS OIR Proc   
+ 192   0        232        232       7168          0          0 Power RPS Proces
+ 193   0     429868     181208     295416          0          0 HL2MCM          
+ 194   0     735744     487636     295668          0          0 HL2MCM          
+ 195   0      16816        232      23752          0          0 AAA Server      
+ 196   0          0          0       7168          0          0 AAA ACCT Proc   
+ 197   0      49352          0      56520          0          0 ACCT Periodic Pr
+ 198   0          0          0       7192          0          0 AAA System Acct 
+ 199   0          0          0       7168          0          0 Webauth client  
+ 200   0        888          0       8056          0          0 Auth-proxy HTTP 
+ 201   0          0          0       7168          0          0 IP Admin SM Proc
+ 202   0 1336668004      57640      32576    1735992          0 CDP Protocol    
+ 203   0    1875432          0      15364          0          0 SSH Event handle
+ 204   0     117192        232     130128          0          0 MRIB Process    
+ 205   0        232        232       7168          0          0 AAA Dictionary R
+ 206   0          0          0       7168          0          0 DHCP Snooping   
+ 207   0          0          0       7168          0          0 DHCP Snooping db
+ 208   0        232        232       7168          0          0 Dot1x Mgr Proces
+ 209   0          0          0       7168          0          0 EAP Framework   
+ 210   0          0          0       7168          0          0 EAP Test        
+ 211   0       1860          0       9028          0          0 TRACK Main threa
+ 212   0       1680          0       8848          0          0 TRACK Client thr
+ 213   0        216          0      13384          0          0 CEF switching ba
+ 214   0      24744       1020      29924          0          0 IP ARP Adjacency
+ 215   0      33012          0      40180          0          0 IP ARP Retry Age
+ 216   0   19087560   18989404      15020          0          0 IP Input        
+ 217   0          0          0       7168          0          0 ICMP event handl
+ 218   0        232        232      10168          0          0 IP ARP Track    
+ 219   0        232        232      13168          0          0 MDFS MFIB Proces
+ 220   0        216          0       4384          0          0 ADJ NSF process 
+ 221   0          0          0       7168          0          0 IPv6 ping proces
+ 222   0 2445033668 2445028112      18596          0          0 OBFL UPTIME obfl
+ 223   0        232        232       7168          0          0 REP Topology cha
+ 224   0          0          0       7168          0          0 RIB LM VALIDATE 
+ 225   0      19296       6084      38380          0          0 SMI Director DB 
+ 226   0          0          0       7168          0          0 SMI CDP Update H
+ 227   0        748          0      25916          0          0 SMI Backup Proce
+ 229   0        440          0      13608          0          0 SMI IBC client p
+ 230   0       6148        232      19084          0          0 SMI IBC Download
+ 231   0    2568844        232       7384          0          0 Spanning Tree   
+ 232   0 1474178544 1474178544       7168          0          0 Spanning Tree St
+ 233   0          0          0       7168          0          0 802.1x switch   
+ 234   0      39396      29172      10064          0          0 DTP Protocol    
+ 235   0          0          0       7168          0          0 HRPC IPv6 Host r
+ 236   0          0          0       7168          0          0 IPv6 Platform Ho
+ 237   0          0          0       7168          0          0 HRPC dai request
+ 238   0          0          0       4168          0          0 HULC DAI Process
+ 239   0          0          0       7168          0          0 HRPC power down 
+ 240   0          0          0       7168          0          0 HRPC ip device t
+ 241   0          0          0       7168          0          0 HRPC ip source g
+ 242   0          0          0       7168          0          0 HULC IP Source g
+ 243   0      12560      10784      14816          0          0 OBFL MSG obfl0  
+ 244   0        232     829536       7168          0          0 PI MATM Aging Pr
+ 245   0       5576        232      12512          0          0 UDLD            
+ 246   0        216          0       7384          0          0 Port-Security   
+ 247   0      71336          0      78504          0          0 Switch Backup In
+ 248   0        232        232      10168          0          0 IP Host Track Pr
+ 249   0          0          0       7168          0          0 Link State Group
+ 250   0          0          0       7168          0          0 MMN bkgrd proces
+ 251   0      35712        232       7168      20304          0 Ethchnl         
+ 252   0          0      69844       7168          0          0 VMATM Callback  
+ 253   0        216          0       7384          0          0 XDR background p
+ 254   0          0          0       7168          0          0 XDR mcast       
+ 255   0          0          0       7168          0          0 XDR RP Ping Back
+ 256   0          0          0      13168          0          0 XDR receive     
+ 257   0          0          0       7168          0          0 IPC LC Message H
+ 258   0          0          0       7168          0          0 XDR RP Test Back
+ 259   0          0          0       7168          0          0 FRR Background P
+ 260   0       7788       4108      17156          0          0 CEF background p
+ 261   0        216          0      13428          0          0 fib_fib_bfd_sb e
+ 262   0          0          0      10168          0          0 IP IRDP         
+ 263   0          0          0       7168          0          0 CEF RF HULC Conv
+ 264   0        232        232       7168          0          0 IP ACL XDR LC Ba
+ 265   0        216          0      10384          0          0 Tunnel FIB      
+ 266   0      49876       7700      35572          0          0 CEF: IPv4 proces
+ 267   0        216          0      13384          0          0 ADJ background  
+ 268   0       7608        232      13504          0          0 MDFS LC Process 
+ 269   0        232        232      13168          0          0 Auth Manager    
+ 270   0          0          0       7168          0          0 Critical Auth   
+ 271   0          0          0      10168          0          0 EPM MAIN PROCESS
+ 272   0          0          0       7168          0          0 Timer Handler Pr
+ 273   0          0          0       7168          0          0 EPM Downlad Mana
+ 274   0          0          0      13168          0          0 EPM ACL PLUG-IN 
+ 275   0      10600        392      20248          0          0 OBFL ENV obfl0  
+ 276   0          0          0       7168          0          0 SVM UT Process  
+ 277   0          0          0       7168          0          0 CMD HANDLER     
+ 278   0       1272      21644      13168          0          0 TCP Timer       
+ 279   0  154242280      68524      15092          0          0 TCP Protocols   
+ 280   0          0          0       7168          0          0 Socket Timers   
+ 281   0     117288     100512      26056          0          0 HTTP CORE       
+ 282   0        232        232       7168          0          0 Cluster L2      
+ 283   0          0          0       7168          0          0 Cluster RARP    
+ 284   0        572        232       7508          0          0 Cluster Base    
+ 285   0        448        232       7384          0          0 Dot1x Supplicant
+ 286   0        448        232       7384          0          0 Dot1x Supplicant
+ 287   0        448        232       7384          0          0 Dot1x Supplicant
+ 288   0          0          0       7168          0          0 DSensor HTTP    
+ 289   0          0          0      13168          0          0 Routing Topology
+ 290   0        216          0       7384          0          0 CEF RP Backgroun
+ 291   0        232        384       7168          0          0 Flow Exporter Ti
+ 292   0          0          0       7168          0          0 DCT Bkgd Process
+ 293   0        216          0      13384          0          0 MFIB Master back
+ 294   0  413120320  413120320       7188          0          0 NIST rng proc   
+ 295   0      49584        232      56520          0          0 Timer Library   
+ 296   0        364          0      13532          0          0 MRIB RP Proxy   
+ 297   0        936        232      10872          0          0 MVPN Mgr Process
+ 298   0        448        232      10384          0          0 Multicast Offloa
+ 299   0          0          0       7168          0          0 RARP Input      
+ 300   0      19232       8276      27340          0          0 IP RIB Update   
+ 301   0        232        232       7168          0          0 ENABLE AAA      
+ 302   0       5832        232      18768          0          0 LDAP process    
+ 303   0       5276        232      15212          0          0 static          
+ 304   0        640        424      13384          0          0 ADJ resolve proc
+ 305   0       5044          0      15212          0          0 IPv6 RIB Cleanup
+ 306   0          0          0      10168          0          0 IPv6 RIB Event H
+ 307   0          0          0      10168          0          0 IPv6 Static Hand
+ 308   0          0          0       7168          0          0 MAB Framework   
+ 309   0  525109808  525109808      10168          0          0 QoS stats proces
+ 310   0      19132          0      44172          0          0 LICENSE AGENT   
+ 311   0        232        232       7168          0          0 REP LSL Proc    
+ 312   0       6148        232      13084          0          0 REP BPA/EPA Proc
+ 313   0          0          0       7168          0          0 SNMP Timers     
+ 314   0          0          0       7168          0          0 HRPC hwccp reque
+ 315   0          0          0       7168          0          0 HULC_WCCP_BACKGR
+ 316   0          0          0       7168          0          0 HRPC dhcp snoopi
+ 317   0          0          0       7168          0          0 HULC DHCP Snoopi
+ 318   0          0          0       7168          0          0 HRPC sisf reques
+ 319   0          0        180       7168          0          0 HULC SISF Proces
+ 320   0          0          0       7168          0          0 HULC SISF Source
+ 321   0      43988    1520628      13240          0          0 IGMPSN L2MCM    
+ 322   0          0          0       7168          0          0 IGMPSN MRD      
+ 323   0          0          0       7168          0          0 IGMPSN          
+ 324   0          0          0       7168          0          0 IGMPQR          
+ 325   0      13784        232      10680          0          0 L2TRACE SERVER  
+ 326   0      44736    1460392      13528          0          0 MLDSN L2MCM     
+ 327   0          0          0       7168          0          0 MRD             
+ 328   0          0          0       7168          0          0 MLD_SNOOP       
+ 329   0          0          0       7176          0          0 HRPC hl2mcm igmp
+ 330   0  254746232          0       7168          0          0 MDFS RP process 
+ 331   0        232        232       7168          0          0 AAA Cached Serve
+ 332   0          0          0       7168          0          0 HRPC hl2mcm mlds
+ 333   0        232        232       7204          0          0 Crypto Support  
+ 334   0          0          0       7168          0          0 IPSECv6 PS Proc 
+ 335   0          0          0       7168          0          0 Key chain liveke
+ 336   0        232        232       7168          0          0 LINE AAA        
+ 337   0    2716084    2716084       7168          0          0 LOCAL AAA       
+ 338   0          0          0       7040          0          0 HCMP sync proces
+ 339   0        788        232       7724          0          0 TPLUS           
+ 340   0        216          0      13392          0          0 Collection proce
+ 341   0          0          0      13040          0          0 hulc cfg mgr mas
+ 342   0     427428     425944       8576          0          0 crypto engine pr
+ 343   0   16163436        100     130284    9108180          0 Crypto IKEv2    
+ 344   0       5916          0      13084          0          0 IKEv2 AAA handle
+ 345   0        232          0      25400          0          0 tHUB            
+ 346   0          0          0      13168          0          0 encrypt proc    
+ 347   0        232        232       7168          0          0 CRYPTO MAP FREE 
+ 348   0          0          0      13168          0          0 Crypto INT      
+ 349   0        232        232      13168          0          0 Crypto IKE Dispa
+ 350   0      64384        232      77320          0          0 Crypto IKMP     
+ 351   0          0          0      10168          0          0 IPSEC manual key
+ 352   0     138116       3008      15756          0          0 IPSEC key engine
+ 353   0      46368       3572      67964          0          0 Crypto ACL      
+ 354   0          0          0       7168          0          0 Crypto PAS Proc 
+ 355   0       5972       1824      18212          0          0 IPSec background
+ 356   0          0          0      13168          0          0 RSA background p
+ 357   0     403472     344688      72020          0          0 Crypto CA       
+ 358   0       5044          0      18212          0          0 Crypto PKI-CRL  
+ 359   0          0          0       7168          0          0 HRPC x_setup req
+ 360   0        232        232       7168          0          0 REP Switch Helpe
+ 361   0          0          0      10168          0          0 Licensing MIB pr
+ 362   0       5276        232      12212          0          0 VTP Trap Process
+ 363   0      46252      39572      19720          0          0 OBFL VOLT obfl0 
+ 364   0        232        232      25168          0          0 ASP Process Crea
+ 365   0        232    3792392       7168          0          0 AAA SEND STOP EV
+ 366   0          0          0      13216          0          0 Test AAA Client 
+ 367   0        232        232       7168          0          0 DHCP Security He
+ 368   0     554388     278804     285752     100548          0 EEM ED Syslog   
+ 369   0          0          0       7168          0          0 Syslog Traps    
+ 370   0          0          0       7040          0          0 OBFL I/O Buffer 
+ 371   0          0          0       7168          0          0 vlmap logger    
+ 372   0        232        232       7168          0          0 FEX Logger Proce
+ 373   0          0          0       7168          0          0 HCD Process     
+ 374   0          0          0       7168          0          0 HRPC cable diagn
+ 375   0      65748        324       7168          0          0 DiagCard1/-1    
+ 376   0        216          0       7384          0          0 Online Diag EEM 
+ 377   0     230152     357372      14372          0          0 PM Callback     
+ 378   0          0          0       7168          0          0 HULC FNF        
+ 379   0   99215952   99201256      14364          0          0 hulc running con
+ 380   0        232        232       7212          0          0 dhcp snooping sw
+ 381   0 3664276100 3617420864      13040          0          0 PDU DISPATCHER  
+ 382   0    1090408      10748    1086828          0          0 EEM Server      
+ 383   0      76652      19316      49776          0          0 Call Home proces
+ 384   0       6820        400      13588          0          0 EEM Helper Threa
+ 385   0      12620        904      21884          0          0 EEM Policy Direc
+ 386   0 1787347312 1919890212      34200    1685232          0 SNMP ENGINE     
+ 387   0      38772      32396      16544          0          0 EEM ED Config   
+ 388   0      16640       4964      21844          0          0 EEM ED CRASH    
+ 389   0      16640       4964      21844          0          0 EEM ED DS       
+ 390   0      11508       5060      16712          0          0 EEM ED Env      
+ 391   0     285548     278964      16912          0          0 EM ED GOLD      
+ 392   0     285180     278804      16544          0          0 EEM ED OIR      
+ 393   0     285180     278804      16544          0          0 EEM ED Test     
+ 394   0     285332     278804      16696          0          0 EEM ED Timer    
+ 395   0      67032      67032      13168          0          0 Syslog          
+ 396   0       1020          0      14060          0          0 IP SNMPV6       
+ 397   0      25900      13016      26052          0          0 RBM CORE        
+ 398   0          0          0       7192          0          0 HRPC eee request
+ 399   0        188          0       7356          0          0 hulc_eee_monitor
+ 400   0        232        232       4168          0          0 STP FAST TRANSIT
+ 401   0        232        232       4168          0          0 CSRT RAPID TRANS
+ 402   0      29672       6384      21092       2340          0 VLAN Manager    
+ 403   0          0          0       7168          0          0 Call Home Timer 
+ 404   0          0          0      13040          0          0 SNMP ConfCopyPro
+ 405   0          0          0       7040          0          0 IPv6 Access Cont
+ 406   0          0          0      13040          0          0 SNMP Traps      
+ 407   0    8367008     602764     173740    3426300          0 LACP Protocol   
+ 408   0     189532      81704       7424          0          0 SpanTree Helper 
+ 409   0          0      35340       7040          0          0 SpanTree Flush  
+ 410   0          0          0      10040          0          0 IP Background   
+ 411   0        528        528      10080          0          0 IP Connected Rou
+ 412   0      45764      41796      17008          0          0 NTP             
+                                 81497012 Total
+show interface
+Vlan1 is administratively down, line protocol is down 
+  Hardware is EtherSVI, address is 00af.1f39.62c0 (bia 00af.1f39.62c0)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 1y11w, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     1467 packets input, 367460 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 1 interface resets
+     0 unknown protocol drops
+     0 output buffer failures, 0 output buffers swapped out
+Vlan246 is up, line protocol is up 
+  Hardware is EtherSVI, address is 00af.1f39.62c1 (bia 00af.1f39.62c1)
+  Description: **link_to_SHZB30SW0A/B-C1**
+  Internet address is 10.48.254.40/28
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 3000 bits/sec, 3 packets/sec
+  5 minute output rate 5000 bits/sec, 3 packets/sec
+     83156109 packets input, 6754809438 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     31472614 packets output, 6304765644 bytes, 0 underruns
+     0 output errors, 1 interface resets
+     0 unknown protocol drops
+     0 output buffer failures, 0 output buffers swapped out
+FastEthernet0 is down, line protocol is down 
+  Hardware is APM86XXX FastEthernet, address is 00af.1f39.62b9 (bia 00af.1f39.62b9)
+  Internet address is 192.168.1.3/24
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Auto-duplex, Auto Speed, MII
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 1y34w, output 1y34w, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/0 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     304 packets input, 33422 bytes
+     Received 106 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog
+     0 input packets with dribble condition detected
+     125 packets output, 22589 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/1 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6281 (bia 00af.1f39.6281)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/2 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6282 (bia 00af.1f39.6282)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/3 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6283 (bia 00af.1f39.6283)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/4 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6284 (bia 00af.1f39.6284)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/5 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6285 (bia 00af.1f39.6285)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/6 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6286 (bia 00af.1f39.6286)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/7 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6287 (bia 00af.1f39.6287)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/8 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6288 (bia 00af.1f39.6288)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/9 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6289 (bia 00af.1f39.6289)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/10 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.628a (bia 00af.1f39.628a)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output 1y17w, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     21798249 packets input, 1620646143 bytes, 0 no buffer
+     Received 759 broadcasts (16 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 16 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     22871037 packets output, 4926388723 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/11 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.628b (bia 00af.1f39.628b)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/12 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.628c (bia 00af.1f39.628c)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/13 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.628d (bia 00af.1f39.628d)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/14 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.628e (bia 00af.1f39.628e)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/15 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.628f (bia 00af.1f39.628f)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/16 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6290 (bia 00af.1f39.6290)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/17 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6291 (bia 00af.1f39.6291)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/18 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6292 (bia 00af.1f39.6292)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/19 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6293 (bia 00af.1f39.6293)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/20 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6294 (bia 00af.1f39.6294)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/21 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6295 (bia 00af.1f39.6295)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/22 is administratively down, line protocol is down (disabled) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6296 (bia 00af.1f39.6296)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 2 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/23 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6297 (bia 00af.1f39.6297)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/24 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6298 (bia 00af.1f39.6298)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/25 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.6299 (bia 00af.1f39.6299)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/26 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.629a (bia 00af.1f39.629a)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/27 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.629b (bia 00af.1f39.629b)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/28 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.629c (bia 00af.1f39.629c)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/29 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.629d (bia 00af.1f39.629d)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/30 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.629e (bia 00af.1f39.629e)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/31 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.629f (bia 00af.1f39.629f)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/32 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a0 (bia 00af.1f39.62a0)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/33 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a1 (bia 00af.1f39.62a1)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/34 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a2 (bia 00af.1f39.62a2)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/35 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a3 (bia 00af.1f39.62a3)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/36 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a4 (bia 00af.1f39.62a4)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/37 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a5 (bia 00af.1f39.62a5)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/38 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a6 (bia 00af.1f39.62a6)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/39 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a7 (bia 00af.1f39.62a7)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/40 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a8 (bia 00af.1f39.62a8)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/41 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62a9 (bia 00af.1f39.62a9)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/42 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62aa (bia 00af.1f39.62aa)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/43 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62ab (bia 00af.1f39.62ab)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/44 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62ac (bia 00af.1f39.62ac)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/45 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62ad (bia 00af.1f39.62ad)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/46 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62ae (bia 00af.1f39.62ae)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/47 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62af (bia 00af.1f39.62af)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/48 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62b0 (bia 00af.1f39.62b0)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 2 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/49 is down, line protocol is down (err-disabled) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62b1 (bia 00af.1f39.62b1)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Auto-duplex, Auto-speed, link type is auto, media type is 1000BaseSX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 1y11w, output 1y11w, output hang never
+  Last clearing of "show interface" counters 1y17w
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     273380552 packets input, 22923551852 bytes, 0 no buffer
+     Received 254606307 broadcasts (252935717 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 252935717 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     18193131 packets output, 1667790346 bytes, 0 underruns
+     0 output errors, 0 collisions, 4 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/50 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62b2 (bia 00af.1f39.62b2)
+  Description: ** link_to_SHZB30SW0B-C1_E1/14**
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Full-duplex, 1000Mb/s, link type is auto, media type is 1000BaseSX SFP
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:05, output 00:00:06, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 69000 bits/sec, 120 packets/sec
+  5 minute output rate 5000 bits/sec, 3 packets/sec
+     4913434177 packets input, 352984893830 bytes, 0 no buffer
+     Received 529195717 broadcasts (475575898 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     9765 input errors, 1 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 475575898 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     33106240 packets output, 6669559481 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/51 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62b3 (bia 00af.1f39.62b3)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Auto-duplex, Auto-speed, link type is auto, media type is Not Present
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet1/0/52 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is 00af.1f39.62b4 (bia 00af.1f39.62b4)
+  MTU 1500 bytes, BW 10000 Kbit/sec, DLY 1000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not set
+  Auto-duplex, Auto-speed, link type is auto, media type is Not Present
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+Port-channel9 is up, line protocol is up (connected) 
+  Hardware is EtherChannel, address is 00af.1f39.62b2 (bia 00af.1f39.62b2)
+  Description: ** link_to_SHZB30SW0A&0B-C1**
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 1000Mb/s, link type is auto, media type is unknown
+  input flow-control is off, output flow-control is unsupported 
+  Members in this channel: Gi1/0/50 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:01, output 1y11w, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 69000 bits/sec, 120 packets/sec
+  5 minute output rate 5000 bits/sec, 3 packets/sec
+     6000296824 packets input, 430849838709 bytes, 0 no buffer
+     Received 1608593590 broadcasts (1548262126 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     13887 input errors, 1 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 1548262126 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     37329767 packets output, 7479737774 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+show inter status
+
+Port      Name               Status       Vlan       Duplex  Speed Type 
+Gi1/0/1                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/2                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/3                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/4                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/5                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/6                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/7                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/8                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/9                      notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/10                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/11                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/12                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/13                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/14                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/15                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/16                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/17                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/18                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/19                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/20                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/21                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/22                     disabled     1            auto   auto 10/100/1000BaseTX
+Gi1/0/23                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/24                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/25                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/26                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/27                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/28                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/29                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/30                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/31                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/32                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/33                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/34                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/35                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/36                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/37                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/38                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/39                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/40                     notconnect   1            full   1000 10/100/1000BaseTX
+Gi1/0/41                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/42                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/43                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/44                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/45                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/46                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/47                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/48                     notconnect   1            auto   auto 10/100/1000BaseTX
+Gi1/0/49                     err-disabled 1            auto   auto 1000BaseSX SFP
+Gi1/0/50  ** link_to_SHZB30S connected    trunk      a-full a-1000 1000BaseSX SFP
+Gi1/0/51                     notconnect   1            auto   auto Not Present
+Gi1/0/52                     notconnect   1            auto   auto Not Present
+Po9       ** link_to_SHZB30S connected    trunk      a-full a-1000 
+Fa0                          notconnect   routed       auto   auto 10/100BaseTX
+show inter status | i (a-100 )
+
+show inter status err-disabled
+
+Port      Name               Status       Reason               Err-disabled Vlans
+Gi1/0/49                     err-disabled link-flap
+show hsrp brief
+                    ^
+% Invalid input detected at '^' marker.
+
+show spanning-tree root
+
+                                        Root    Hello Max Fwd
+Vlan                   Root ID          Cost    Time  Age Dly  Root Port
+---------------- -------------------- --------- ----- --- ---  ------------
+VLAN0001          4097 00f6.6309.937c         4    2   20  15  Po9             
+VLAN0002          4098 00f6.6309.937c         4    2   20  15  Po9             
+VLAN0003          4099 00f6.6309.937c         4    2   20  15  Po9             
+VLAN0005          4101 00f6.6309.937c         4    2   20  15  Po9             
+VLAN0246          4342 00f6.6309.937c         4    2   20  15  Po9             
+show port-channel sum
+                        ^
+% Invalid input detected at '^' marker.
+
+show logging
+Syslog logging: enabled (0 messages dropped, 1 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 280 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 280 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    File logging: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 279 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (4096 bytes):
+nt port type.
+May 18 10:34:27.548: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.48.254.209)
+May 19 02:59:10.685: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/49, changed state to down
+May 19 02:59:11.684: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/49, changed state to down
+May 19 03:18:43.674: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:20:41.120: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:26:51.510: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:38:57.524: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/49, changed state to up
+May 19 03:38:58.527: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/49, changed state to up
+May 19 03:39:01.208: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/49, changed state to down
+May 19 03:39:02.207: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/49, changed state to down
+May 19 03:41:59.398: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/49, changed state to up
+May 19 03:42:00.401: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/49, changed state to up
+May 19 03:42:28.920: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:42:37.343: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:42:51.538: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:43:23.411: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/49, changed state to down
+May 19 03:43:24.411: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/49, changed state to down
+May 19 03:43:31.748: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:44:12.370: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:48:49.069: %LINK-5-CHANGED: Interface GigabitEthernet1/0/49, changed state to administratively down
+May 19 03:48:51.886: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/49, changed state to down
+May 19 03:49:07.674: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:49:49.136: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:50:48.259: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:51:25.679: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:52:01.926: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:58:16.269: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:58:40.642: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 03:59:05.357: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.26.253.221)
+May 19 04:03:57.355: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty1 (10.26.253.221)
+May 19 04:05:27.275: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty1 (10.26.253.221)
+May 19 04:18:52.038: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty1 (10.26.253.221)
+May 19 04:23:20.390: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty1 (10.26.253.221)
+May 19 04:26:31.349: %PM-4-ERR_DISABLE: link-flap error detected on Gi1/0/49, putting Gi1/0/49 in err-disable state
+May 31 03:01:28.892: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.48.254.209)
+May 31 03:01:42.842: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/22, changed state to down
+May 31 03:01:45.442: %LINK-5-CHANGED: Interface GigabitEthernet1/0/22, changed state to administratively down
+May 31 03:01:48.871: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.48.254.209)
+Jun  1 09:55:16.228: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.48.254.209)
+Apr  9 10:05:18.390: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.25.5.56)
+Jul 31 05:14:28.995: %SYS-5-CONFIG_I: Configured from console by zyyh2015 on vty0 (10.25.5.3)
+----------------------------------------------------------------------------------------------------
